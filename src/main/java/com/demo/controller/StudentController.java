@@ -15,4 +15,8 @@ public class StudentController {
     public String goodBye() {
         return "Goodbye Deploy";
     }
+
+    public String name() {
+        return "Your name is Isameddin";
+    }
 }
