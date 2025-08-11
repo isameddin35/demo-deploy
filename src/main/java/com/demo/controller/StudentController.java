@@ -15,4 +15,9 @@ public class StudentController {
     public String goodBye() {
         return "Goodbye Deploy";
     }
+
+    @GetMapping("name")
+    public String name() {
+        return "Your name is Isa";
+    }
 }
