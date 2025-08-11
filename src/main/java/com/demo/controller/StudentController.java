@@ -10,4 +10,9 @@ public class StudentController {
     public String greet() {
         return "Hello Deploy";
     }
+
+    @GetMapping("bye")
+    public String goodBye() {
+        return "Goodbye Deploy";
+    }
 }
